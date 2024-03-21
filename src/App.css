@@ -1,0 +1,56 @@
+button {
+    height: 40px;
+    width: 50px;
+}
+
+input::placeholder{
+    color: #fff;
+}
+
+input:focus{
+    outline: none;
+    background-color: #000;
+}
+input:hover{
+    outline: none;
+    background-color: #000;
+}
+
+
+select:focus{
+    outline: none;
+}
+
+.btn-primary{
+    background-color: #e48020;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+}
+
+.btn-primary:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-primary:active{
+    background-color: #fff;
+}
+
+.btn-dark:hover{
+    background-color:transparent;
+    outline: none;
+}
+
+.btn-dark{
+    background-color:transparent;
+
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  
